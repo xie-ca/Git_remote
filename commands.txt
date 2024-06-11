@@ -1,0 +1,31 @@
+* pwd -- print working directory
+	> displays your current directory location
+* mkdir -- make directory
+	>creates a new folder in the current directory
+* cd -- change directory
+	> allows you to move throughout your computer
+* ls -- display the list of the contents of the current directory
+
+* touch > creates a new file in the current directory
+
+* rm > deleting /removing a file
+
+-------------
+
+* Repository -- like a folder/container that stores files/folder related to a project. it keeps track of the changes made over time.
+	> Local Repository --version of the repo that is stored on your own computer
+	>Remote Repository --version of the repo that is stored on a server or cloud -based platform [GitHub]
+
+* git init
+	- initialize a folder
+
+* 	git config --global user.name "<username>"
+	git config --global user.email "<email address>"
+		- sets the user's username and email address
+
+*	git config --global user.name 
+	git config --global user.email 
+		- to check if username and email address were successfully connected
+
+*	git status 
+		- displays the current status of your file/folder
