@@ -38,3 +38,9 @@ git config --global user.email "<email address>"
 
 * git commit -m "message"
 	- saves the changes that you've made to the files in the staging area to the repository. The "massage" describes what changes were made in this commit.
+
+* git log
+	-display all the commit that were made
+
+* git log --oneline
+	-condensed version of git log
