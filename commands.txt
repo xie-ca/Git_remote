@@ -19,13 +19,22 @@
 * git init
 	- initialize a folder
 
-* 	git config --global user.name "<username>"
-	git config --global user.email "<email address>"
-		- sets the user's username and email address
+* git config --global user.name "<username>"
+git config --global user.email "<email address>"
+	- sets the user's username and email address
 
-*	git config --global user.name 
-	git config --global user.email 
-		- to check if username and email address were successfully connected
+* git config --global user.name 
+  git config --global user.email 
+	- to check if username and email address were successfully connected
 
-*	git status 
-		- displays the current status of your file/folder
+* git status 
+	- displays the current status of your file/folder
+
+* git add .
+	-adds all the modified files in your current directory to the staging area
+
+* git add "filename"
+	- adds a specific file to the staging area
+
+* git commit -m "message"
+	- saves the changes that you've made to the files in the staging area to the repository. The "massage" describes what changes were made in this commit.
